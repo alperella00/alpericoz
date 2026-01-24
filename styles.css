@@ -490,6 +490,32 @@ body {
   padding: 2rem 0;
 }
 
+/* Visit Counter */
+.visit-counter {
+  margin-top: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.visit-counter__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e; /* green */
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+}
+
+.visit-counter strong {
+  color: #fff;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hamburger {
